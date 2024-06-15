@@ -39,4 +39,4 @@ So one single command does all the work without being manually do whole lot of s
 - Hot Reload 
 - tye build - builds docker images for the project
 - type push - build and push docker images
-- tye undeploy - removes all the app resources from K8s 
+- tye undeploy - removes all the app resources from K8s  
