@@ -33,4 +33,10 @@ So one single command does all the work without being manually do whole lot of s
 - microservice kubectl port-forward svc/frontend 5000:80 //generated the service in port dignified 
 - microservice kubectl describe deployment //will provide all the information and env variables that will be injected 
 
-- 
+- supports to use Dapr natively with it 
+- Azure functions
+- Ingress - which allows to expose traffic to the internet , having a url that is acccessble 
+- Hot Reload 
+- tye build - builds docker images for the project
+- type push - build and push docker images
+- tye undeploy - removes all the app resources from K8s 
